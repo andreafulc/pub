@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dove Trovarci - Pub Name</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+<!-- header -->
+ <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Pub Name</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html" data-key="home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="menu.html" data-key="menu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="location.html" data-key="location">Dove Trovarci</a></li>
+                </ul>
+                <select id="language-selector" class="form-select w-auto">
+                    <option value="it">Italiano</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+        </div>
+    </nav>
+</header>
+
+    <!-- main -->
+    <main>
+        
+    <div class="container mt-5">
+        <h1 data-key="location-title">Dove Trovarci</h1>
+        <p data-key="location-text">Vieni a trovarci nella nostra sede!</p>
+        <p><strong data-key="address-label">Indirizzo:</strong> <span data-key="address">Via Roma, 123, 00100 Roma, Italia</span></p>
+        <p><strong data-key="phone-label">Telefono:</strong> <span data-key="phone">+39 012 345 6789</span></p>
+        
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" width="100%" height="400" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434508616!2d144.95592831531668!3d-37.81720997975159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d5dfb1a63f3%3A0x5045675218ce6e0!2sMelbourne%2C%20VIC%2C%20Australia!5e0!3m2!1sit!2sit!4v1615262741694!5m2!1sit!2sit" allowfullscreen></iframe>
+        </div>
+    </div>
+</main>
+    
+    <!-- footer -->
+
+    <footer class="bg-dark text-white text-center py-3 mt-5 fw-lighter fs-6 position-static mt-auto">
+        <p>&copy; 2025 Pub Name. Tutti i diritti riservati. Realizzato da Andrea Fulciniti</p>
+    </footer>
+    
+    <!-- scriptjs -->
+
+    <script src="./js/script.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
